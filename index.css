@@ -1,3 +1,7 @@
+body {
+  overflow-y: hidden;
+}
+
 a {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -72,7 +76,7 @@ code:hover {
 }
 
 #color-input:disabled + label {
-  background-color: #ececec;
+  background-color: #00700d;
 }
 
 .disabled {
@@ -88,6 +92,10 @@ code:hover {
 
 .material-textfield {
   position: relative;
+}
+
+.btn {
+  margin-top: 2em;
 }
 
 .btn3d {
@@ -247,5 +255,19 @@ code:hover {
   100% {
     opacity: 0;
     transform: translateY(-15px);
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 832px) {
+  .btn {
+    padding-top: 16px;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 780px) {
+  .color-content {
+    max-width: 400px;
   }
 }
