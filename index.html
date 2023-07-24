@@ -16,11 +16,6 @@
       <div>
 				<h2 class="project-tagline"></h2>
 				<a href="https://github.com/fullmetalbrackets/css-color-filter-generator" class="btn">View on GitHub</a>
-				<h2 class="project-tagline"></h2>
-				<a href="https://github.com/angel-rs/css-color-filter-generator" class="btn">Original by angel-rs</a>
-				<h2 class="project-tagline"></h2>
-				<a href="https://github.com/wzrabbit/css-color-filter-generator" class="btn">Update by mzrabbit</a>
-			</div>
 			</section>
 
     <section class="main-content">
@@ -30,7 +25,7 @@
 			      <input disabled id="color-input" class="target" type="text" placeholder="#000" type="text" maxlength="18" oninput="validateColor(this.value)">
 			      <label>Desired Hex or RGB Color</label>
 			    </div>
-	        <a id="action-button" class="btn3d btn-default action-button disabled" onclick="compute()"><span>Get Filter!</span></a>
+	        <a id="action-button" class="btn3d btn-default action-button disabled" onclick="compute()"><span>Go!</span></a>
 				</section>
 
 				<section class="real-section">
@@ -41,13 +36,13 @@
 
 						<div class="color-content">
 							<span class="copyable" data-clipboard-text="rgb(0, 0, 0)">
-								<b>RGB </b><code id="realPixelTextRGB">rgb(0, 0, 0)</code>
+								<b>RGB </b><code class="rgb" id="realPixelTextRGB">rgb(0, 0, 0)</code>
 								<span class="copy">Copy</span>
 								<span class="pos"></span>
 							</span>
 							<br>
 							<span class="copyable" data-clipboard-text="#000">
-								<b>HEX </b><code id="realPixelTextHEX">#000</code>
+								<b>HEX </b><code class="hex" id="realPixelTextHEX">#000000</code>
 								<span class="copy">Copy</span>
 								<span class="pos"> </span>
 							</span>
@@ -78,10 +73,7 @@
 
 			<footer class="site-footer">
 				<span class="site-footer-owner">
-					<a href="https://github.com/angel-rs/css-color-filter-generator">This is a fork</a> of <a href="https://github.com/angel-rs/css-color-filter-generator"><em>css-color-filter-generator</em></a> originally created
-				</span>
-				<span class="site-footer-owner">
-					by <a href="https://github.com/angel-rs">angel-rs</a> and includes updates by <a href="https://github.com/wzrabbit" target="_blank">wzrabbit</a>.
+					This is a fork of <a href="https://github.com/angel-rs/css-color-filter-generator"><em>css-color-filter-generator</em></a> originally created by <a href="https://github.com/angel-rs" class="credit-link">angel-rs</a> and includes updates by <a href="https://github.com/wzrabbit" target="_blank" class="credit-link">wzrabbit</a>.
 				</span>
 				<p class="site-footer-owner">
 					Please feel free to <a href="https://github.com/fullmetalbrackets/css-color-filter-generator" target="_blank">submit any pull requests</a> and they will be merged ASAP. <i class="em em-heart"></i>
