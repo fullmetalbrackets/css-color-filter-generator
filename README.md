@@ -1,4 +1,6 @@
-# css-color-filter-generator
+# CSS Color Filter Generator
+
+https://cssfiltergenerator.lol
 
 - Original repo: https://github.com/angel-rs/css-color-filter-generator
 - Original site: https://angel-rs.github.io/css-color-filter-generator
