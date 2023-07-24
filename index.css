@@ -28,6 +28,7 @@ input {
   border-radius: 5px;
   padding: 1rem 0.7rem;
   color: gray;
+  width: 36ch;
   transition: 0.1s ease-out;
 }
 
@@ -48,6 +49,22 @@ input:not(:placeholder-shown) + label {
 
 section[class*="section"] {
   padding: 10px 0px;
+}
+
+.page-header h1 {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.page-header > div {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.page-header > div > h2 {
+  margin: auto 1em;
 }
 
 code:hover {
