@@ -3,10 +3,6 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-/* 
-::-webkit-scrollbar {
-  display: none;
-} */
 
 a {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -254,4 +250,8 @@ code:hover {
     opacity: 0;
     transform: translateY(-15px);
   }
+}
+
+.heart {
+	color: red;
 }
