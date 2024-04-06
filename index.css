@@ -12,6 +12,10 @@ a span {
   user-select: none;
 }
 
+em {
+  color: #0eaf5e;
+}
+
 .credit-link {
   color: #0eaf5e
 }

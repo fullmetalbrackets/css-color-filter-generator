@@ -1,9 +1,22 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
- 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
- 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8" />
+ 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+ 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="title" content="CSS Color Filter Generator" />
+		<meta name="description" content="Generate SVG filter properties from hex or RGB codes to use in CSS." />
+		<link rel="canonical" href="https://cssfiltergenerator.lol" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://cssfiltergenerator.lol" />
+		<meta property="og:title" content="CSS Color Filter Generator" />
+		<meta property="og:description" content="Generate SVG filter properties from hex or RGB codes to use in CSS." />
+		<meta property="og:image" content="/icon1024x1024.png" />
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://cssfiltergenerator.lol" />
+		<meta property="twitter:title" content="CSS Color Filter Generator" />
+		<meta property="twitter:description" content="Generate SVG filter properties from hex or RGB codes to use in CSS." />
+		<meta property="twitter:image" content="/icon1024x1024.png" />
 		<link rel="stylesheet" href="normalize.css">
 		<link rel="stylesheet" href="cayman.css">
 		<link rel="stylesheet" href="index.css">
@@ -19,11 +32,16 @@
 			</section>
 
     <section class="main-content">
+		<div>
+			<p>
+				Write in a hex or RGB code below and click <em>Go!</em> to generate SVG filter properties to use in CSS.
+			</p>
+		</div>
       <div>
 				<section class="input-section">
 					<div class="material-textfield">
 			      <input disabled id="color-input" class="target" type="text" placeholder="#000" type="text" maxlength="18" oninput="validateColor(this.value)">
-			      <label>Desired Hex or RGB Color</label>
+			      <label>Hex or RGB Color Code</label>
 			    </div>
 	        <a id="action-button" class="btn3d btn-default action-button disabled" onclick="compute()"><span>Go!</span></a>
 				</section>
@@ -73,7 +91,7 @@
 
 			<footer class="site-footer">
 				<span class="site-footer-owner">
-					This is a fork of <a href="https://github.com/angel-rs/css-color-filter-generator"><em>css-color-filter-generator</em></a> originally created by <a href="https://github.com/angel-rs" class="credit-link">angel-rs</a> and includes updates by <a href="https://github.com/wzrabbit" target="_blank" class="credit-link">wzrabbit</a>.
+					This is a fork of <a href="https://github.com/angel-rs/css-color-filter-generator">css-color-filter-generator</a> originally created by <a href="https://github.com/angel-rs" class="credit-link">angel-rs</a> and includes updates by <a href="https://github.com/wzrabbit" target="_blank" class="credit-link">wzrabbit</a>.
 				</span>
 				<p class="site-footer-owner">
 					Please feel free to <a href="https://github.com/fullmetalbrackets/css-color-filter-generator" target="_blank">submit any pull requests</a> and they will be merged ASAP. <span class="heart">&#10084;</span>
